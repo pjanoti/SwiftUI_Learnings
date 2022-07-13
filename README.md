@@ -1,2 +1,2 @@
 # SwiftUI_Learnings
-SwiftUI Learning and findings
+SwiftUI Learnings and findings
