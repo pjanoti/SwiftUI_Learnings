@@ -1,6 +1,6 @@
 //
 //  CustomButton.swift
-//  SwiftUIButton
+//  SwiftUI_Learnings
 //
 //  Created by prema janoti on 08/07/22.
 //

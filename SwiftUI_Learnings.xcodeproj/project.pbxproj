@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D0279122877EA8B004F7699 /* SwiftUIButton.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0D0279112877EA8B004F7699 /* SwiftUIButton.docc */; };
-		0D0279182877EA8B004F7699 /* SwiftUIButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D02790D2877EA8B004F7699 /* SwiftUIButton.framework */; };
-		0D02791D2877EA8B004F7699 /* SwiftUIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D02791C2877EA8B004F7699 /* SwiftUIButtonTests.swift */; };
-		0D02791E2877EA8B004F7699 /* SwiftUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0279102877EA8B004F7699 /* SwiftUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D0279282877EAD6004F7699 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0279272877EAD6004F7699 /* CustomButton.swift */; };
-		0D02792E28783284004F7699 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D02792D28783284004F7699 /* SliderView.swift */; };
+		0D0279182877EA8B004F7699 /* SwiftUI_Learnings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D02790D2877EA8B004F7699 /* SwiftUI_Learnings.framework */; };
+		0DAD57EB288558BE00CC8141 /* SwiftUI_Learnings.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD57E6288558BE00CC8141 /* SwiftUI_Learnings.docc */; };
+		0DAD57EC288558BE00CC8141 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD57E7288558BE00CC8141 /* CustomButton.swift */; };
+		0DAD57ED288558BE00CC8141 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD57E8288558BE00CC8141 /* SliderView.swift */; };
+		0DAD57EE288558BE00CC8141 /* SwiftUI_Learnings.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAD57E9288558BE00CC8141 /* SwiftUI_Learnings.h */; };
+		0DAD57EF28855A7700CC8141 /* SwiftUI_Learnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD57E4288558BE00CC8141 /* SwiftUI_Learnings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,13 +26,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D02790D2877EA8B004F7699 /* SwiftUIButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D0279102877EA8B004F7699 /* SwiftUIButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUIButton.h; sourceTree = "<group>"; };
-		0D0279112877EA8B004F7699 /* SwiftUIButton.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftUIButton.docc; sourceTree = "<group>"; };
-		0D0279172877EA8B004F7699 /* SwiftUIButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D02791C2877EA8B004F7699 /* SwiftUIButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButtonTests.swift; sourceTree = "<group>"; };
-		0D0279272877EAD6004F7699 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		0D02792D28783284004F7699 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		0D02790D2877EA8B004F7699 /* SwiftUI_Learnings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUI_Learnings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0279172877EA8B004F7699 /* SwiftUI_LearningsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_LearningsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAD57E4288558BE00CC8141 /* SwiftUI_Learnings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUI_Learnings.swift; sourceTree = "<group>"; };
+		0DAD57E6288558BE00CC8141 /* SwiftUI_Learnings.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftUI_Learnings.docc; sourceTree = "<group>"; };
+		0DAD57E7288558BE00CC8141 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0DAD57E8288558BE00CC8141 /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		0DAD57E9288558BE00CC8141 /* SwiftUI_Learnings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftUI_Learnings.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D0279182877EA8B004F7699 /* SwiftUIButton.framework in Frameworks */,
+				0D0279182877EA8B004F7699 /* SwiftUI_Learnings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,8 +57,8 @@
 		0D0279032877EA8B004F7699 = {
 			isa = PBXGroup;
 			children = (
-				0D02790F2877EA8B004F7699 /* SwiftUIButton */,
-				0D02791B2877EA8B004F7699 /* SwiftUIButtonTests */,
+				0DAD57E5288558BE00CC8141 /* SwiftUI_Learnings */,
+				0DAD57E3288558BE00CC8141 /* SwiftUI_LearningsTests */,
 				0D02790E2877EA8B004F7699 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,29 +66,29 @@
 		0D02790E2877EA8B004F7699 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D02790D2877EA8B004F7699 /* SwiftUIButton.framework */,
-				0D0279172877EA8B004F7699 /* SwiftUIButtonTests.xctest */,
+				0D02790D2877EA8B004F7699 /* SwiftUI_Learnings.framework */,
+				0D0279172877EA8B004F7699 /* SwiftUI_LearningsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D02790F2877EA8B004F7699 /* SwiftUIButton */ = {
+		0DAD57E3288558BE00CC8141 /* SwiftUI_LearningsTests */ = {
 			isa = PBXGroup;
 			children = (
-				0D0279102877EA8B004F7699 /* SwiftUIButton.h */,
-				0D0279112877EA8B004F7699 /* SwiftUIButton.docc */,
-				0D0279272877EAD6004F7699 /* CustomButton.swift */,
-				0D02792D28783284004F7699 /* SliderView.swift */,
+				0DAD57E4288558BE00CC8141 /* SwiftUI_Learnings.swift */,
 			);
-			path = SwiftUIButton;
+			path = SwiftUI_LearningsTests;
 			sourceTree = "<group>";
 		};
-		0D02791B2877EA8B004F7699 /* SwiftUIButtonTests */ = {
+		0DAD57E5288558BE00CC8141 /* SwiftUI_Learnings */ = {
 			isa = PBXGroup;
 			children = (
-				0D02791C2877EA8B004F7699 /* SwiftUIButtonTests.swift */,
+				0DAD57E6288558BE00CC8141 /* SwiftUI_Learnings.docc */,
+				0DAD57E7288558BE00CC8141 /* CustomButton.swift */,
+				0DAD57E8288558BE00CC8141 /* SliderView.swift */,
+				0DAD57E9288558BE00CC8141 /* SwiftUI_Learnings.h */,
 			);
-			path = SwiftUIButtonTests;
+			path = SwiftUI_Learnings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,16 +98,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D02791E2877EA8B004F7699 /* SwiftUIButton.h in Headers */,
+				0DAD57EE288558BE00CC8141 /* SwiftUI_Learnings.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D02790C2877EA8B004F7699 /* SwiftUIButton */ = {
+		0D02790C2877EA8B004F7699 /* SwiftUI_Learnings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D0279212877EA8B004F7699 /* Build configuration list for PBXNativeTarget "SwiftUIButton" */;
+			buildConfigurationList = 0D0279212877EA8B004F7699 /* Build configuration list for PBXNativeTarget "SwiftUI_Learnings" */;
 			buildPhases = (
 				0D0279082877EA8B004F7699 /* Headers */,
 				0D0279092877EA8B004F7699 /* Sources */,
@@ -118,14 +118,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUIButton;
+			name = SwiftUI_Learnings;
 			productName = SwiftUIButton;
-			productReference = 0D02790D2877EA8B004F7699 /* SwiftUIButton.framework */;
+			productReference = 0D02790D2877EA8B004F7699 /* SwiftUI_Learnings.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0D0279162877EA8B004F7699 /* SwiftUIButtonTests */ = {
+		0D0279162877EA8B004F7699 /* SwiftUI_LearningsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D0279242877EA8B004F7699 /* Build configuration list for PBXNativeTarget "SwiftUIButtonTests" */;
+			buildConfigurationList = 0D0279242877EA8B004F7699 /* Build configuration list for PBXNativeTarget "SwiftUI_LearningsTests" */;
 			buildPhases = (
 				0D0279132877EA8B004F7699 /* Sources */,
 				0D0279142877EA8B004F7699 /* Frameworks */,
@@ -136,9 +136,9 @@
 			dependencies = (
 				0D02791A2877EA8B004F7699 /* PBXTargetDependency */,
 			);
-			name = SwiftUIButtonTests;
+			name = SwiftUI_LearningsTests;
 			productName = SwiftUIButtonTests;
-			productReference = 0D0279172877EA8B004F7699 /* SwiftUIButtonTests.xctest */;
+			productReference = 0D0279172877EA8B004F7699 /* SwiftUI_LearningsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0D0279072877EA8B004F7699 /* Build configuration list for PBXProject "SwiftUIButton" */;
+			buildConfigurationList = 0D0279072877EA8B004F7699 /* Build configuration list for PBXProject "SwiftUI_Learnings" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,8 +172,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D02790C2877EA8B004F7699 /* SwiftUIButton */,
-				0D0279162877EA8B004F7699 /* SwiftUIButtonTests */,
+				0D02790C2877EA8B004F7699 /* SwiftUI_Learnings */,
+				0D0279162877EA8B004F7699 /* SwiftUI_LearningsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,9 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D0279282877EAD6004F7699 /* CustomButton.swift in Sources */,
-				0D02792E28783284004F7699 /* SliderView.swift in Sources */,
-				0D0279122877EA8B004F7699 /* SwiftUIButton.docc in Sources */,
+				0DAD57EB288558BE00CC8141 /* SwiftUI_Learnings.docc in Sources */,
+				0DAD57EC288558BE00CC8141 /* CustomButton.swift in Sources */,
+				0DAD57ED288558BE00CC8141 /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D02791D2877EA8B004F7699 /* SwiftUIButtonTests.swift in Sources */,
+				0DAD57EF28855A7700CC8141 /* SwiftUI_Learnings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +219,7 @@
 /* Begin PBXTargetDependency section */
 		0D02791A2877EA8B004F7699 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D02790C2877EA8B004F7699 /* SwiftUIButton */;
+			target = 0D02790C2877EA8B004F7699 /* SwiftUI_Learnings */;
 			targetProxy = 0D0279192877EA8B004F7699 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,7 +438,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D0279072877EA8B004F7699 /* Build configuration list for PBXProject "SwiftUIButton" */ = {
+		0D0279072877EA8B004F7699 /* Build configuration list for PBXProject "SwiftUI_Learnings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D02791F2877EA8B004F7699 /* Debug */,
@@ -447,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D0279212877EA8B004F7699 /* Build configuration list for PBXNativeTarget "SwiftUIButton" */ = {
+		0D0279212877EA8B004F7699 /* Build configuration list for PBXNativeTarget "SwiftUI_Learnings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D0279222877EA8B004F7699 /* Debug */,
@@ -456,7 +456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D0279242877EA8B004F7699 /* Build configuration list for PBXNativeTarget "SwiftUIButtonTests" */ = {
+		0D0279242877EA8B004F7699 /* Build configuration list for PBXNativeTarget "SwiftUI_LearningsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D0279252877EA8B004F7699 /* Debug */,
